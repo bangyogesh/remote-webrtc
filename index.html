@@ -5,7 +5,7 @@
     <link rel="icon" type="image/svg+xml" href="/remote-webrtc/assets/favicon.63a26457.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>WebRTC Demo</title>
-  <script type="module" crossorigin src="/remote-webrtc/assets/index.156932ae.js"></script>
+  <script type="module" crossorigin src="/remote-webrtc/assets/index.b7107043.js"></script>
   <link rel="modulepreload" href="/remote-webrtc/assets/vendor.2356b38d.js">
   <link rel="stylesheet" href="/remote-webrtc/assets/index.ea03162d.css">
 </head>
@@ -46,10 +46,16 @@
 
     <br>
     <br>
-    OFFER : <textarea id="Offer" > </textarea> 
+    OFFER-SDP : <textarea id="OfferSDP" > </textarea>
+    OFFER-ICE : <textarea id="OfferICE" > </textarea>
+    <button id="receiveOfferButton" >RECEIVE THE OFFER</button>
+
     <br>
     <br>
-    ANSWER : <textarea id="Answer" > </textarea>
+    ANSWER-SDP : <textarea id="AnswerSDP" > </textarea>
+    ANSWER-ICE : <textarea id="AnswerICE" > </textarea>
+    <button id="receiveAnswerButton" >RECEIVE THE ANSWER</button>
+
 
 
 
